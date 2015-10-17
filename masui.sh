@@ -5,7 +5,6 @@ then
     echo "You are up to date !"
 else
     echo "You have update available:"
-#    appName=( $(mas outdated | colrm 1 10))
     IFS=$'\n' appName=( $(mas outdated | colrm 1 10))
     appID=( $(mas outdated | colrm 10))
 
