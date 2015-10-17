@@ -2,9 +2,9 @@
 #description: Use mas to update all of your app at the same time (hopefully) 
 if [[ $(mas outdated) == "" ]]
 then
-    echo "You are up to date !"
+    echo "You are up to date!"
 else
-    echo "You have update available:"
+    echo "You have updates available:"
     IFS=$'\n' appName=( $(mas outdated | colrm 1 10))
     appID=( $(mas outdated | colrm 10))
 
