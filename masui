@@ -1,5 +1,5 @@
 #!/bin/bash
-#description: Use mas to update all of your app at the same time (hopefully) 
+#description: Use mas to update all of your app at the same time (hopefully)
 if [[ $(mas outdated) == "" ]]
 then
     echo "You are up to date!"
@@ -58,4 +58,3 @@ else
     done
     echo "Bye!"
 fi
-

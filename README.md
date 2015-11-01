@@ -4,7 +4,7 @@
 Just run the script and follow the instruction.
 
 ```
-~ $ bash masui.sh
+~ $ bash ./masui
 You have updates available:
 1) Keynote (6.6)
 2) Pages (5.6)
