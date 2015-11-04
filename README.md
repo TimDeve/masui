@@ -26,7 +26,7 @@ If you ever used the Mac App Store you know what a pain it can be to use (downlo
 never start, slow and clunky interface).[mas](https://github.com/argon/mas) solves that problem by
 providing a CLI to update your apps, however it is not really easy to use, asking you to manually type or
 copy app IDs one by one, masui solves that.
-#### Disclaimer
+##### Disclaimer
 I wrote this script one afternoon as a way to solve a simple problem and to learn bash scripting as
 such it is more a collection of stack overflow answers than it is real programming. You are more
 than welcome to use it and do whatever you want with it but it does not come with any warranty.
