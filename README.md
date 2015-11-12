@@ -4,26 +4,29 @@
 Just run the script and follow the instruction.
 
 ```
-~ $ bash ./masui
-You have updates available:
-1) Keynote (6.6)
-2) Pages (5.6)
+~ $ masui
+update(s) available:
+1) Keynote (6.6.1)
+2) Numbers (3.6.1)
+3) Pages (5.6.1)
 
-Enter the n° of the apps you want updated (ex: '1' or '1 4 3')
+Enter the n° of the app(s) you want updated (ex: '1' or '1 4 3')
 Enter 'a' for all and 'c' to cancel __________________________
 ___________________________________/
 a
 Updating all the outdated apps, give us a moment...
 ==> Downloading Keynote
-==> Installed Pages
-==> Downloading Pages
 ==> Installed Keynote
+==> Downloading Numbers
+==> Installed Numbers
+==> Downloading Pages
+==> Installed Pages
 Bye!
 ```
 
 ##### Why?
 If you ever used the Mac App Store you know what a pain it can be to use (downloads that stop or
-never start, slow and clunky interface).[mas](https://github.com/argon/mas) solves that problem by
+never start, slow and clunky interface). [mas](https://github.com/argon/mas) solves that problem by
 providing a CLI to update your apps, however it is not really easy to use, asking you to manually type or
 copy app IDs one by one, masui solves that.
 ##### Disclaimer
