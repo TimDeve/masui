@@ -1,5 +1,5 @@
 # masui
-###### Usable command line interface for [mas](https://github.com/argon/mas)
+###### Usable command line interface for [mas-cli](https://github.com/argon/mas)
 
 Just run the script and follow the instruction.
 
