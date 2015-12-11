@@ -26,7 +26,7 @@ Bye!
 
 ##### Why?
 If you ever used the Mac App Store you know what a pain it can be to use (downloads that stop or
-never start, slow and clunky interface). [mas](https://github.com/argon/mas) solves that problem by
+never start, slow and clunky interface). [mas-cli](https://github.com/argon/mas) solves that problem by
 providing a CLI to update your apps, however it is not really easy to use, asking you to manually type or
 copy app IDs one by one, masui solves that.
 ##### Disclaimer
